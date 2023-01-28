@@ -1,0 +1,46 @@
+[2023-01-28T16:53:57.656+09:00] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SshCommandStart' queue
+[2023-01-28T16:53:58.103+09:00] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Stream-Worker' queue
+[2023-01-28T16:53:58.104+09:00] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Interactive-Worker' queue
+[2023-01-28T16:53:58.105+09:00] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Batch-Worker' queue
+[2023-01-28T16:53:58.147+09:00] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'MigrateExternalIdCase' queue
+[2023-01-28T16:53:58.164+09:00] [main] WARN  com.google.gerrit.server.config.GitwebCgiConfig : gitweb not installed (no /usr/lib/cgi-bin/gitweb.cgi found)
+[2023-01-28T16:53:58.968+09:00] [main] INFO  org.eclipse.jetty.util.log : Logging initialized @9864ms to org.eclipse.jetty.util.log.Slf4jLog
+[2023-01-28T16:53:59.152+09:00] [main] INFO  com.google.gerrit.server.git.SystemReaderInstaller : Set JGit's SystemReader to read system config from /home/test/gerrit_testsite/etc/jgit.config
+[2023-01-28T16:53:59.156+09:00] [main] INFO  com.google.gerrit.server.git.LocalDiskRepositoryManager : Defaulting core.streamFileThreshold to 2008m
+[2023-01-28T16:53:59.648+09:00] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loading plugins from /home/test/gerrit_testsite/plugins
+[2023-01-28T16:53:59.661+09:00] [main] INFO  com.google.gerrit.server.config.ScheduleConfig : No schedule configuration for "accountDeactivation".
+[2023-01-28T16:53:59.684+09:00] [main] INFO  com.google.gerrit.sshd.SshDaemon : Started Gerrit APACHE-SSHD-2.6.0 on *:29418
+[2023-01-28T16:53:59.687+09:00] [main] INFO  org.eclipse.jetty.server.Server : jetty-9.4.36.v20210114; built: 2021-01-14T16:44:28.689Z; git: 238ec6997c7806b055319a6d11f8ae7564adc0de; jvm 11.0.17+8-post-Ubuntu-1ubuntu220.04
+[2023-01-28T16:53:59.718+09:00] [main] INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+[2023-01-28T16:53:59.719+09:00] [main] INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+[2023-01-28T16:53:59.721+09:00] [main] INFO  org.eclipse.jetty.server.session : node0 Scavenging every 600000ms
+[2023-01-28T16:53:59.810+09:00] [main] INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.e.j.s.ServletContextHandler@5180f430{/,null,AVAILABLE}
+[2023-01-28T16:53:59.823+09:00] [main] INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@2a4a95c4{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2023-01-28T16:53:59.824+09:00] [main] INFO  org.eclipse.jetty.server.Server : Started @10722ms
+[2023-01-28T16:53:59.826+09:00] [main] INFO  com.google.gerrit.pgm.Daemon : Gerrit Code Review 3.5.1 ready
+[2023-01-28T17:01:08.836+09:00] [ShutdownCallback] INFO  com.google.gerrit.pgm.Daemon : caught shutdown, cleaning up
+[2023-01-28T17:01:08.860+09:00] [ShutdownCallback] INFO  org.eclipse.jetty.server.AbstractConnector : Stopped ServerConnector@2a4a95c4{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[2023-01-28T17:01:08.860+09:00] [ShutdownCallback] INFO  org.eclipse.jetty.server.session : node0 Stopped scavenging
+[2023-01-28T17:01:08.863+09:00] [ShutdownCallback] INFO  org.eclipse.jetty.server.handler.ContextHandler : Stopped o.e.j.s.ServletContextHandler@5180f430{/,null,STOPPED}
+[2023-01-28T17:01:08.904+09:00] [ShutdownCallback] INFO  com.google.gerrit.sshd.SshDaemon : Stopped Gerrit SSHD
+[2023-01-28T17:01:26.437+09:00] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SshCommandStart' queue
+[2023-01-28T17:01:26.815+09:00] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Stream-Worker' queue
+[2023-01-28T17:01:26.816+09:00] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Interactive-Worker' queue
+[2023-01-28T17:01:26.817+09:00] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'SSH-Batch-Worker' queue
+[2023-01-28T17:01:26.817+09:00] [main] INFO  com.google.gerrit.server.git.WorkQueue : Adding metrics for 'MigrateExternalIdCase' queue
+[2023-01-28T17:01:26.830+09:00] [main] WARN  com.google.gerrit.server.config.GitwebCgiConfig : gitweb not installed (no /usr/lib/cgi-bin/gitweb.cgi found)
+[2023-01-28T17:01:27.561+09:00] [main] INFO  org.eclipse.jetty.util.log : Logging initialized @11896ms to org.eclipse.jetty.util.log.Slf4jLog
+[2023-01-28T17:01:27.688+09:00] [main] INFO  com.google.gerrit.server.git.SystemReaderInstaller : Set JGit's SystemReader to read system config from /home/test/gerrit_testsite/etc/jgit.config
+[2023-01-28T17:01:27.692+09:00] [main] INFO  com.google.gerrit.server.git.LocalDiskRepositoryManager : Defaulting core.streamFileThreshold to 2008m
+[2023-01-28T17:01:28.148+09:00] [main] INFO  com.google.gerrit.server.plugins.PluginLoader : Loading plugins from /home/test/gerrit_testsite/plugins
+[2023-01-28T17:01:28.162+09:00] [main] INFO  com.google.gerrit.server.config.ScheduleConfig : No schedule configuration for "accountDeactivation".
+[2023-01-28T17:01:28.184+09:00] [main] INFO  com.google.gerrit.sshd.SshDaemon : Started Gerrit APACHE-SSHD-2.6.0 on *:29418
+[2023-01-28T17:01:28.187+09:00] [main] INFO  org.eclipse.jetty.server.Server : jetty-9.4.36.v20210114; built: 2021-01-14T16:44:28.689Z; git: 238ec6997c7806b055319a6d11f8ae7564adc0de; jvm 11.0.17+8-post-Ubuntu-1ubuntu220.04
+[2023-01-28T17:01:28.217+09:00] [main] INFO  org.eclipse.jetty.server.session : DefaultSessionIdManager workerName=node0
+[2023-01-28T17:01:28.217+09:00] [main] INFO  org.eclipse.jetty.server.session : No SessionScavenger set, using defaults
+[2023-01-28T17:01:28.219+09:00] [main] INFO  org.eclipse.jetty.server.session : node0 Scavenging every 660000ms
+[2023-01-28T17:01:28.304+09:00] [main] INFO  org.eclipse.jetty.server.handler.ContextHandler : Started o.e.j.s.ServletContextHandler@4d7a4317{/,null,AVAILABLE}
+[2023-01-28T17:01:28.317+09:00] [main] INFO  org.eclipse.jetty.server.AbstractConnector : Started ServerConnector@513fb873{HTTP/1.1, (http/1.1)}{localhost:8080}
+[2023-01-28T17:01:28.318+09:00] [main] INFO  org.eclipse.jetty.server.Server : Started @12654ms
+[2023-01-28T17:01:28.319+09:00] [main] INFO  com.google.gerrit.pgm.Daemon : Gerrit Code Review 3.5.1 ready
+[2023-01-28T17:05:11.442+09:00] [HTTP PUT /groups/TEST_GROUP_4_JUN (admin from 127.0.0.1)] WARN  com.google.gerrit.server.update.RetryHelper : GROUP_UPDATE was attempted 2 times [CONTEXT request="REST /groups/*" ]
